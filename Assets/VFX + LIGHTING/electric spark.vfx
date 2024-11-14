@@ -197,7 +197,7 @@ MonoBehaviour:
       m_Type:
         m_SerializableType: System.Single, mscorlib, Version=4.0.0.0, Culture=neutral,
           PublicKeyToken=b77a5c561934e089
-      m_SerializableObject: 6
+      m_SerializableObject: 12
     m_Space: -1
   m_Property:
     name: Rate
@@ -1144,7 +1144,7 @@ MonoBehaviour:
       m_Type:
         m_SerializableType: System.Single, mscorlib, Version=4.0.0.0, Culture=neutral,
           PublicKeyToken=b77a5c561934e089
-      m_SerializableObject: 0.756
+      m_SerializableObject: 0.877
     m_Space: -1
   m_Property:
     name: DirectionBlend
@@ -2815,7 +2815,7 @@ MonoBehaviour:
       m_Type:
         m_SerializableType: System.Single, mscorlib, Version=4.0.0.0, Culture=neutral,
           PublicKeyToken=b77a5c561934e089
-      m_SerializableObject: 4.02
+      m_SerializableObject: 2.12
     m_Space: -1
   m_Property:
     name: Speed
