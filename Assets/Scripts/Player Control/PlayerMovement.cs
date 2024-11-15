@@ -9,7 +9,7 @@ public class PlayerMovement : MonoBehaviour
 
     public string currentState;
 
-    private float moveSpeed;
+    public float moveSpeed;
     public float walkSpeed;
     public float sprintSpeed;
     public float wallRunSpeed;
@@ -30,7 +30,7 @@ public class PlayerMovement : MonoBehaviour
     public float playerHeight;
     public float groundResistance;
     public LayerMask ground;
-    bool grounded;
+    public bool grounded;
 
     // Crouch Setup
 
