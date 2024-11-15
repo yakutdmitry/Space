@@ -114,8 +114,8 @@ MonoBehaviour:
     m_OverrideState: 0
     m_Value: 0
   multiplier:
-    m_OverrideState: 0
-    m_Value: 170
+    m_OverrideState: 1
+    m_Value: 527.6
   upperHemisphereLuxValue:
     m_OverrideState: 1
     m_Value: 0.03523706
