@@ -495,7 +495,7 @@ PrefabInstance:
     m_Modifications:
     - target: {fileID: 1743771144662388614, guid: 037bee329c0e2da438b4c35b47ba5e21, type: 3}
       propertyPath: m_Name
-      value: Cube.020 (1)
+      value: Battery1
       objectReference: {fileID: 0}
     - target: {fileID: 4553666701835148478, guid: 037bee329c0e2da438b4c35b47ba5e21, type: 3}
       propertyPath: m_LocalPosition.x
@@ -1394,7 +1394,7 @@ MeshRenderer:
   m_RenderingLayerMask: 1
   m_RendererPriority: 0
   m_Materials:
-  - {fileID: 2100000, guid: 73c176f402d2c2f4d929aa5da7585d17, type: 2}
+  - {fileID: 3829349551939333720, guid: 4e011059351e0c645bcfaac882b9c020, type: 3}
   m_StaticBatchInfo:
     firstSubMesh: 0
     subMeshCount: 0
@@ -2728,7 +2728,7 @@ MeshRenderer:
   m_RenderingLayerMask: 1
   m_RendererPriority: 0
   m_Materials:
-  - {fileID: 2100000, guid: 73c176f402d2c2f4d929aa5da7585d17, type: 2}
+  - {fileID: 3829349551939333720, guid: 4e011059351e0c645bcfaac882b9c020, type: 3}
   m_StaticBatchInfo:
     firstSubMesh: 0
     subMeshCount: 0
@@ -3179,7 +3179,7 @@ PrefabInstance:
     m_Modifications:
     - target: {fileID: 1743771144662388614, guid: 037bee329c0e2da438b4c35b47ba5e21, type: 3}
       propertyPath: m_Name
-      value: Cube.020 (5)
+      value: Battery5
       objectReference: {fileID: 0}
     - target: {fileID: 4553666701835148478, guid: 037bee329c0e2da438b4c35b47ba5e21, type: 3}
       propertyPath: m_LocalPosition.x
@@ -3507,7 +3507,7 @@ Transform:
   m_GameObject: {fileID: 490533594}
   serializedVersion: 2
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 0.34, y: -0.3, z: 0}
+  m_LocalPosition: {x: 0.29, y: -0.3, z: 0.13}
   m_LocalScale: {x: 1, y: 0.09789, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children: []
@@ -3536,7 +3536,7 @@ MeshRenderer:
   m_RenderingLayerMask: 1
   m_RendererPriority: 0
   m_Materials:
-  - {fileID: 2100000, guid: 73c176f402d2c2f4d929aa5da7585d17, type: 2}
+  - {fileID: 3829349551939333720, guid: 4e011059351e0c645bcfaac882b9c020, type: 3}
   m_StaticBatchInfo:
     firstSubMesh: 0
     subMeshCount: 0
@@ -5488,7 +5488,7 @@ PrefabInstance:
     m_Modifications:
     - target: {fileID: 1743771144662388614, guid: 037bee329c0e2da438b4c35b47ba5e21, type: 3}
       propertyPath: m_Name
-      value: Cube.020 (2)
+      value: Battery3
       objectReference: {fileID: 0}
     - target: {fileID: 4553666701835148478, guid: 037bee329c0e2da438b4c35b47ba5e21, type: 3}
       propertyPath: m_LocalPosition.x
@@ -5596,7 +5596,7 @@ Transform:
   m_GameObject: {fileID: 811960908}
   serializedVersion: 2
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 48.89, y: 24.64, z: 1.67}
+  m_LocalPosition: {x: 45.97, y: 24.64, z: 15.51}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children:
@@ -8082,6 +8082,14 @@ PrefabInstance:
       propertyPath: m_TagString
       value: Player
       objectReference: {fileID: 0}
+    - target: {fileID: 8843054167899342946, guid: 2590a86434da3234fb07f53eae2c3c78, type: 3}
+      propertyPath: m_Height
+      value: 1.8602219
+      objectReference: {fileID: 0}
+    - target: {fileID: 8843054167899342946, guid: 2590a86434da3234fb07f53eae2c3c78, type: 3}
+      propertyPath: m_Center.y
+      value: -0.06988907
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects:
@@ -8257,7 +8265,7 @@ GameObject:
   - component: {fileID: 1183313866}
   - component: {fileID: 1183313865}
   m_Layer: 6
-  m_Name: GameObject
+  m_Name: StairRamp
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -8292,13 +8300,13 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1183313864}
   serializedVersion: 2
-  m_LocalRotation: {x: -0, y: -0, z: 0.3819787, w: 0.92417115}
-  m_LocalPosition: {x: 69.99, y: 20.92, z: 18.99}
-  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_LocalRotation: {x: -0, y: -0, z: 0.32977065, w: 0.9440611}
+  m_LocalPosition: {x: 69.07442, y: 20.828518, z: 18.99}
+  m_LocalScale: {x: 1.1858345, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children: []
   m_Father: {fileID: 0}
-  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 44.913}
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 38.51}
 --- !u!65 &1200729484
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -8351,7 +8359,7 @@ PrefabInstance:
     m_Modifications:
     - target: {fileID: 1743771144662388614, guid: 037bee329c0e2da438b4c35b47ba5e21, type: 3}
       propertyPath: m_Name
-      value: Cube.020 (3)
+      value: Battery4
       objectReference: {fileID: 0}
     - target: {fileID: 4553666701835148478, guid: 037bee329c0e2da438b4c35b47ba5e21, type: 3}
       propertyPath: m_LocalPosition.x
@@ -9771,7 +9779,7 @@ PrefabInstance:
     m_Modifications:
     - target: {fileID: 1743771144662388614, guid: 037bee329c0e2da438b4c35b47ba5e21, type: 3}
       propertyPath: m_Name
-      value: Cube.020 (6)
+      value: Battery6
       objectReference: {fileID: 0}
     - target: {fileID: 4553666701835148478, guid: 037bee329c0e2da438b4c35b47ba5e21, type: 3}
       propertyPath: m_LocalPosition.x
@@ -10317,7 +10325,7 @@ MeshRenderer:
   m_RenderingLayerMask: 1
   m_RendererPriority: 0
   m_Materials:
-  - {fileID: 2100000, guid: 73c176f402d2c2f4d929aa5da7585d17, type: 2}
+  - {fileID: 3829349551939333720, guid: 4e011059351e0c645bcfaac882b9c020, type: 3}
   m_StaticBatchInfo:
     firstSubMesh: 0
     subMeshCount: 0
@@ -10644,7 +10652,7 @@ Transform:
   m_GameObject: {fileID: 1564997790}
   serializedVersion: 2
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 47.94, y: 24.64, z: 3.19}
+  m_LocalPosition: {x: 46.3, y: 24.64, z: 11.284}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children:
@@ -11826,7 +11834,7 @@ MeshRenderer:
   m_RenderingLayerMask: 1
   m_RendererPriority: 0
   m_Materials:
-  - {fileID: 2100000, guid: 73c176f402d2c2f4d929aa5da7585d17, type: 2}
+  - {fileID: 3829349551939333720, guid: 4e011059351e0c645bcfaac882b9c020, type: 3}
   m_StaticBatchInfo:
     firstSubMesh: 0
     subMeshCount: 0
@@ -12524,7 +12532,7 @@ PrefabInstance:
     m_Modifications:
     - target: {fileID: 1743771144662388614, guid: 037bee329c0e2da438b4c35b47ba5e21, type: 3}
       propertyPath: m_Name
-      value: Cube.020 (4)
+      value: Battery2
       objectReference: {fileID: 0}
     - target: {fileID: 4553666701835148478, guid: 037bee329c0e2da438b4c35b47ba5e21, type: 3}
       propertyPath: m_LocalPosition.x
